@@ -1,0 +1,20 @@
+# Core scientific stack
+numpy>=1.26
+scipy>=1.13
+
+# Deep learning (CPU-only wheel for environments without CUDA drivers at install time;
+# swap index URL for the CUDA 12.x wheel when running on the RTX 5000 Pro)
+# torch>=2.3.0
+# torchvision>=0.18.0
+
+# Visualisation / GUI
+matplotlib>=3.8
+PyQt5>=5.15
+pyqtgraph>=0.13          # fast real-time image widget backed by Qt
+
+# Image I/O
+Pillow>=10.0
+
+# Notebook / dev utilities (optional, comment out in headless environments)
+# ipython
+# jupyter
